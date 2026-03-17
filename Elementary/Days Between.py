@@ -4,9 +4,9 @@ def days_diff(a: tuple[int, int, int], b: tuple[int, int, int]) -> int:
     date_1 = date(a[0], a[1], a[2])
     date_2 = date(b[0], b[1], b[2])
 
-    differense = date_2 - date_1
+    difference = date_2 - date_1
     
-    return abs(differense.days)
+    return abs(difference.days)
 
 
 print("Example:")
